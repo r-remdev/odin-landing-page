@@ -1,0 +1,203 @@
+body{
+    font-family: Hero, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    background-color: #1f2637;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.md-01-frame-01, .md-01-frame-02, .md-01-frame, .footer, .bottom-frame{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/*------------------------------- Header -----------------------------------*/
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #F9FAF8;;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+    
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 28%;
+    padding-left: 20px;
+}
+
+
+.header{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;    
+   
+}
+
+/*------------------------------- Top Frame -----------------------------------*/
+
+.top-frame{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    margin: 0px 100px;
+
+}
+
+.img-top-frame{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    
+}
+
+.top-frame-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.top-frame-button{
+    margin: 15px 0px;
+    padding: 10px 25px;
+    background-color: #3882F6;
+    width: 75px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/*------------------------------- MD-01 Frame -----------------------------------*/
+
+.md-01-frame{
+
+    background-color: #F9FAF8;
+    align-items: center;
+    color: #1f2937;
+    font-weight: bolder;
+    flex-direction: column;
+    padding: 0px 0px 75px 0px;
+}
+
+
+.md-01-frame-01{
+    
+    padding: 35px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+.md-01-frame-02{
+    text-align: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+
+.img-md-01-frame{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/*------------------------------- MD-02 Frame -----------------------------------*/
+
+.md-02-frame{
+
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    width: 100%;
+
+
+}
+
+.md-02-frame-ex-01{
+    width: 900px;
+}
+
+.qoute{
+   color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px;
+}
+
+.qoute-author{
+    font-size: 29px;
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+
+
+/*------------------------------- Bottom Frame -----------------------------------*/
+
+.md-03-frame{
+
+    background-color: #F9FAF8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.md-03-frame-ex-01{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 50%;
+    margin: 50px 0;
+    padding: 50px;
+    border-radius: 15px;
+    font-size: 25px;
+    width: 900px;
+}
+
+.md-03-button{
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*------------------------------- Footer -----------------------------------*/
+
+.footer{
+    
+    width: 100%;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}
