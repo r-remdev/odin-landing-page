@@ -1,7 +1,7 @@
 # odin-landing-page
 # The Odin Project - Landing Page
 # --
-# My first attempt at developing the Landing project based on the provided screenshot.
+# My first attempt at developing the Landing page project based on the provided screenshot.
 # -- Will try to make changes and optimize the CSS as I gain more knowledge on the subject.
 # 
 # Credits for used images --
